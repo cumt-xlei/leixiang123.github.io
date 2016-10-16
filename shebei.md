@@ -13,14 +13,14 @@
 ***
 [点击下载数据库文件](http://leixiang123.github.io/shebei.sql)
 ***
-###查询检修语句
+###查询检修图与语句
+![image](/chaxun1.png)
 SELECT 
     device.Did,
     type.Tname,
-    type.Time,
+yuyu    type.Time,
     type.Substance,
-    content.Project,
-    person.Pname,
+    content.Project,    person.Pname,
     item.Date,
     item.Condition
 FROM
@@ -37,7 +37,8 @@ WHERE
         AND item.Cid = content.Cid
         AND item.Pid = person.Pid
 ***
-###查询材料消耗语句
+###查询材料消耗图与语句
+![image](chaxun2.png)
 SELECT 
     device.Did,
     type.Tname,
@@ -65,7 +66,8 @@ WHERE
         AND item.Pid = person.Pid
         AND item.Iid = expend.Iid
 ***
-###预警语句
+###预警语句与图片
+![image](/chaxun3.png)
 SELECT 
     item.Did,
     MAX(item.Date),
