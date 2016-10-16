@@ -7,8 +7,8 @@
 ![image](/model3.png)
 ![image](/model4.png)
 ***
-[点击下载ER图文件](/shebei.cdm)
+[点击下载ER图文件](leixiang123.github.io/shebei.cdm)
 ***
-[点击下载原型设计件](/原型.rp)
+[点击下载原型设计件](leixiang123.github.io/原型.rp)
 ***
-[点击下载数据库文件](/shebei.sql)
+[点击下载数据库文件](/leixiang123.github.io/shebei.sql)
