@@ -11,10 +11,12 @@ import java.util.List;
 
 public class Inventory {
 	
+	private List<Guitar> guitars;
+	
 	//从库存中查询guitar
 	public List<Guitar> search(GuitarSpec searchSpec){
 		//全部库存
-		List<Guitar> guitars = getGuitars();
+		guitars = getGuitars();
 		//匹配的guitar
 		List<Guitar> matchingGuitars = new LinkedList<>();
 		for (Iterator iterator = guitars.iterator(); iterator.hasNext();) {
@@ -85,5 +87,10 @@ public class Inventory {
 
 		return conn;	
 	}
+
+	public void setGuitars(List<Guitar> guitars) {
+		this.guitars = guitars;
+	}
+	
 
 }
