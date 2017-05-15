@@ -18,12 +18,12 @@ public class GuitarTest {
 		List<Guitar> list = new LinkedList<>();
 		list.add(new Guitar("1", 100.00, new GuitarSpec.Creater().builder(Builder.BuilderOne).model(Model.Gibson).type(Type.Acoustic).backWood(Wood.Teak).topWood(Wood.Teak).creat()));
 		list.add(new Guitar("2", 100.00, new GuitarSpec.Creater().builder(Builder.BuilderOne).model(Model.Gibson).type(Type.Acoustic).backWood(Wood.Maple).topWood(Wood.Maple).creat()));
-		list.add(new Guitar("1", 100.00, new GuitarSpec.Creater().builder(Builder.BuilderOne).model(Model.Gibson).type(Type.Electric).backWood(Wood.Teak).topWood(Wood.Teak).creat()));
-		list.add(new Guitar("1", 100.00, new GuitarSpec.Creater().builder(Builder.BuilderOne).model(Model.Gibson).type(Type.Electric).backWood(Wood.Maple).topWood(Wood.Maple).creat()));
-		list.add(new Guitar("1", 100.00, new GuitarSpec.Creater().builder(Builder.BuilderTwo).model(Model.Fender).type(Type.Acoustic).backWood(Wood.Teak).topWood(Wood.Teak).creat()));
-		list.add(new Guitar("1", 100.00, new GuitarSpec.Creater().builder(Builder.BuilderTwo).model(Model.Fender).type(Type.Electric).backWood(Wood.Maple).topWood(Wood.Maple).creat()));
-		list.add(new Guitar("1", 100.00, new GuitarSpec.Creater().builder(Builder.BuilderTwo).model(Model.Fender).type(Type.Acoustic).backWood(Wood.Teak).topWood(Wood.Teak).creat()));
-		list.add(new Guitar("1", 100.00, new GuitarSpec.Creater().builder(Builder.BuilderTwo).model(Model.Fender).type(Type.Electric).backWood(Wood.Maple).topWood(Wood.Maple).creat()));
+		list.add(new Guitar("3", 100.00, new GuitarSpec.Creater().builder(Builder.BuilderOne).model(Model.Gibson).type(Type.Electric).backWood(Wood.Teak).topWood(Wood.Teak).creat()));
+		list.add(new Guitar("4", 100.00, new GuitarSpec.Creater().builder(Builder.BuilderOne).model(Model.Gibson).type(Type.Electric).backWood(Wood.Maple).topWood(Wood.Maple).creat()));
+		list.add(new Guitar("5", 150.00, new GuitarSpec.Creater().builder(Builder.BuilderTwo).model(Model.Fender).type(Type.Acoustic).backWood(Wood.Teak).topWood(Wood.Teak).creat()));
+		list.add(new Guitar("6", 150.00, new GuitarSpec.Creater().builder(Builder.BuilderTwo).model(Model.Fender).type(Type.Electric).backWood(Wood.Maple).topWood(Wood.Maple).creat()));
+		list.add(new Guitar("7", 150.00, new GuitarSpec.Creater().builder(Builder.BuilderTwo).model(Model.Fender).type(Type.Acoustic).backWood(Wood.Teak).topWood(Wood.Teak).creat()));
+		list.add(new Guitar("8", 150.00, new GuitarSpec.Creater().builder(Builder.BuilderTwo).model(Model.Fender).type(Type.Electric).backWood(Wood.Maple).topWood(Wood.Maple).creat()));
 		
 		//查询条件		
 		GuitarSpec spec = new GuitarSpec.Creater().builder(Builder.BuilderOne).type(Type.Acoustic).model(Model.Gibson).creat();
