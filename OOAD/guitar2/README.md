@@ -4,3 +4,5 @@
 ![image](guitar2-2.png)
 ### 3、选择查询条件之后
 ![image](guitar2-3.png)
+### 4、测试结果
+![image](guitar2-4.png)
