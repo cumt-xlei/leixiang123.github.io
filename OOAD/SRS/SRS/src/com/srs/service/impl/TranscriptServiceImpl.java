@@ -1,4 +1,4 @@
-package com.srs.serviceImpl;
+package com.srs.service.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,8 +8,8 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.srs.daomain.Transcript;
 import com.srs.daomain.TranscriptEntity;
+import com.srs.daomain.vo.Transcript;
 import com.srs.service.TranscriptService;
 @Service("transcriptService")
 public class TranscriptServiceImpl implements TranscriptService {

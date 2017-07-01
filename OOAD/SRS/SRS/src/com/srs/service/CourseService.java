@@ -3,7 +3,7 @@ package com.srs.service;
 import java.util.HashMap;
 import java.util.List;
 
-import com.srs.daomain.Course;
+import com.srs.daomain.vo.Course;
 
 public interface CourseService {
 

@@ -1,6 +1,6 @@
 package com.srs.service;
 
-import com.srs.daomain.Student;
+import com.srs.daomain.vo.Student;
 
 public interface LoginService {
 	/**

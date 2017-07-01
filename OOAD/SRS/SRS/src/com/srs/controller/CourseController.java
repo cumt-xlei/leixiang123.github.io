@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.srs.daomain.Course;
+import com.srs.daomain.vo.Course;
 import com.srs.service.CourseService;
 /**
  * 对课程进行增删查改

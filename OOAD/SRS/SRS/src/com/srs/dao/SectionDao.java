@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.srs.daomain.Section;
+import com.srs.daomain.vo.Section;
 @Transactional(propagation=Propagation.REQUIRED,isolation=Isolation.DEFAULT)
 public interface SectionDao {
 	@Select("select * from section where professor_sn = #{ssn}")

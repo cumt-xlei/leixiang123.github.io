@@ -2,6 +2,8 @@ package com.srs.daomain;
 
 import java.util.ArrayList;
 
+import com.srs.daomain.vo.Section;
+
 public class Professor extends Person{
 	private String title;//职称
 	private String department;//哪个学院

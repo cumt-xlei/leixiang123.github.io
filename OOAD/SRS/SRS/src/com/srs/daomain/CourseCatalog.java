@@ -13,6 +13,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.srs.dao.CourseDao;
+import com.srs.daomain.vo.Course;
 @Component
 @Transactional(propagation=Propagation.REQUIRED,isolation=Isolation.DEFAULT)
 public class CourseCatalog {

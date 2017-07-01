@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.srs.daomain.Student;
+import com.srs.daomain.vo.Student;
 
 /**
  * 主要负责对student表的操作

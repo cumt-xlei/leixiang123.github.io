@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.srs.daomain.Course;
+import com.srs.daomain.vo.Course;
 @Transactional(propagation=Propagation.REQUIRED,isolation=Isolation.DEFAULT)
 public interface CourseDao {
 	

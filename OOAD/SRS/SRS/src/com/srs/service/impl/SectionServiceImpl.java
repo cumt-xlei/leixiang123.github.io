@@ -1,4 +1,4 @@
-package com.srs.serviceImpl;
+package com.srs.service.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,8 +8,8 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.srs.daomain.Section;
 import com.srs.daomain.SectionCatalog;
+import com.srs.daomain.vo.Section;
 import com.srs.service.SectionService;
 @Service("sectionService")
 public class SectionServiceImpl implements SectionService {

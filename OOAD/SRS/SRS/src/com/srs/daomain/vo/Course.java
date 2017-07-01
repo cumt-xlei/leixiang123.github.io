@@ -1,4 +1,4 @@
-package com.srs.daomain;
+package com.srs.daomain.vo;
 
 import java.util.ArrayList;
 

@@ -1,9 +1,12 @@
-package com.srs.daomain;
+package com.srs.daomain.vo;
 
 import java.util.ArrayList;
 
 
 import org.springframework.stereotype.Component;
+
+import com.srs.daomain.Person;
+import com.srs.daomain.TranscriptEntity;
 
 @Component
 public class Student extends Person{

@@ -1,4 +1,4 @@
-package com.srs.daomain;
+package com.srs.daomain.vo;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.srs.dao.TranscriptDao;
+import com.srs.daomain.TranscriptEntity;
 @Component
 @Transactional(propagation=Propagation.REQUIRED,isolation=Isolation.DEFAULT)
 public class Transcript {

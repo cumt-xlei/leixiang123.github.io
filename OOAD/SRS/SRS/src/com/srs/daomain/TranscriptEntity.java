@@ -1,5 +1,8 @@
 package com.srs.daomain;
 
+import com.srs.daomain.vo.Section;
+import com.srs.daomain.vo.Student;
+
 public class TranscriptEntity {
 	private int id;
 	private double grade;

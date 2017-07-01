@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.srs.daomain.Section;
-import com.srs.daomain.Student;
+import com.srs.daomain.vo.Section;
+import com.srs.daomain.vo.Student;
 import com.srs.service.LoginService;
 import com.srs.service.SectionService;
 import com.srs.service.SelectSectionService;

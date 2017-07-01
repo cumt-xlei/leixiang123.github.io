@@ -1,4 +1,4 @@
-package com.srs.serviceImpl;
+package com.srs.service.impl;
 
 import java.util.ArrayList;
 
@@ -6,12 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import com.srs.daomain.Section;
 import com.srs.daomain.SectionCatalog;
-import com.srs.daomain.Student;
 import com.srs.daomain.StudentCatalog;
-import com.srs.daomain.Transcript;
 import com.srs.daomain.TranscriptEntity;
+import com.srs.daomain.vo.Section;
+import com.srs.daomain.vo.Student;
+import com.srs.daomain.vo.Transcript;
 import com.srs.service.SelectSectionService;
 import com.srs.specification.Specification;
 @Service("selectSectionService")

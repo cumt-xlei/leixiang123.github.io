@@ -1,6 +1,6 @@
 package com.srs.daomain;
 
-public abstract class Person {
+public class Person {
 	private String ssn;
 	private String name;
 	

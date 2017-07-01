@@ -1,4 +1,4 @@
-package com.srs.serviceImpl;
+package com.srs.service.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,8 +10,8 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.srs.daomain.Course;
 import com.srs.daomain.CourseCatalog;
+import com.srs.daomain.vo.Course;
 import com.srs.service.CourseService;
 
 @Transactional(propagation=Propagation.REQUIRED,isolation=Isolation.DEFAULT)

@@ -1,7 +1,9 @@
-package com.srs.daomain;
+package com.srs.daomain.vo;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import com.srs.daomain.Professor;
 
 
 public class Section {

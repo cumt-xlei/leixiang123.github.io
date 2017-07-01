@@ -12,6 +12,9 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.srs.dao.StudentDao;
+import com.srs.daomain.vo.Section;
+import com.srs.daomain.vo.Student;
+import com.srs.daomain.vo.Transcript;
 
 @Component
 @Transactional(propagation=Propagation.REQUIRED,isolation=Isolation.DEFAULT)

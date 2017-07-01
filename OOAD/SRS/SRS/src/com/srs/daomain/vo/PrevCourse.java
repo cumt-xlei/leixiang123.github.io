@@ -1,4 +1,4 @@
-package com.srs.daomain;
+package com.srs.daomain.vo;
 
 public class PrevCourse {
 	private Course course;

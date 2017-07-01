@@ -11,7 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.srs.daomain.Student;
+import com.srs.daomain.vo.Student;
 import com.srs.service.TranscriptService;
 /**
  * 对成绩单进行相关操作
